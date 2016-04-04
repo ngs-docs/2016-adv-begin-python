@@ -34,8 +34,12 @@ These will be "stub notes" - associated discussion and code will be
 ## Data and problem
 
 * we'll be counting Ns - it's going to be very exciting!
-* we'll be using `this FASTQ file of data <https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz>`__
-* you can download it directly with `curl -L -O https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz`
+* we'll be using [this FASTQ file of data](https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz)
+* you can download it directly with
+
+```
+curl -L -O https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz
+```
 
 ## Code reuse and modules
 
