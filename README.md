@@ -72,4 +72,5 @@ These will be "stub notes" - associated discussion and code will be
 ## Fun Python tricks
 
 * generators: put 'yield' in a Python function to turn it into a generator
-* check out 'enumerate'
+* check out 'enumerate'!
+
