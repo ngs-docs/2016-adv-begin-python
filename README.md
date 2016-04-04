@@ -28,6 +28,13 @@ These will be "stub notes" - associated discussion and code will be
 * This workshop being live-streamed and recorded.
 * Goals: show you the tools, work through them, provide foil for questions.
 * We have a [Code of conduct](http://software-carpentry.org/conduct/)
+* If you don't have a working Python install you can use [this](http://mybinder.org/repo/ctb/2016-mybinder-inflammation)
+
+## Data and problem
+
+* we'll be counting Ns - it's going to be very exciting!
+* we'll be using `this FASTQ file of data <https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz>`__
+* you can download it directly with `curl -L -O https://github.com/ngs-docs/2016-adv-begin-python-source/raw/master/ecoli_ref-100k.fq.gz`
 
 ## Code reuse and modules
 
@@ -64,9 +71,9 @@ These will be "stub notes" - associated discussion and code will be
 
 * "virtualenv" is a great tool for creating collections of installed packages
   that will never change.
-* create a virtualenv with 'python -m virtualenv NAME'
-* activate a virtualenv with '. NAME/bin/activate' (in bash)
-* deactivate with 'deactivate'
+* create a virtualenv with `python -m virtualenv NAME`
+* activate a virtualenv with `. NAME/bin/activate` (in bash)
+* deactivate with `deactivate`
 * pip to install code.
 
 ## Fun Python tricks
@@ -74,3 +81,7 @@ These will be "stub notes" - associated discussion and code will be
 * generators: put 'yield' in a Python function to turn it into a generator
 * check out 'enumerate'!
 
+## Other principles
+
+* make a cut-down data set so that you can iterate quickly in data analysis
+* display progress indicators for long analyses
